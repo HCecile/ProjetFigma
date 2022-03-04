@@ -1,0 +1,145 @@
+.logo {
+  margin: 10px;
+  height:"100%";
+}
+.bandeau {
+  background-color: black;
+}
+.centrale {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 45px;
+}
+.prix:hover {
+  transform: scale(115%);
+transform: 1,5s;
+}
+.prix{ 
+  position: absolute;
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  margin: 10px 90px;
+  display: table;
+}
+.prix .bulle {
+  display: table-cell;
+  vertical-align: middle;
+}
+.bulle {
+  transform: rotate(-45deg);
+  font-weight: bold;
+  color: black;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  font-family: rosarivo;
+  font-size: 36px;
+  font-style: italic;
+}
+.grand {
+  height: 900px;
+  width: 900px;
+  display: table;
+}
+
+.grand .dcpt {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.petit {
+  color: #3cbc90;
+  font-weight: bold;
+  height: 240px;
+  width: 240px;
+  font-family: prata;
+  font-size: 24px;
+  display: table;
+}
+.petit img {
+  margin-top: 35px;
+}
+.grand img {
+  margin-top: 20%;
+}
+.petit p {
+  display: table-cell;
+  vertical-align: middle; 
+}
+
+.photo {
+  padding-top: 50px;
+}
+.great {
+  margin-right: -60;
+  }
+
+.carac {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.description {
+  margin-left: -60px;
+  box-shadow: 10px 10px 10px red;
+  font-family: prata;
+  font-size: 24px;
+  background-color: #FFE6B2;
+}
+.gdphoto {
+  box-shadow: -10px 10px 10px red;
+}
+.two,
+.three {
+  margin-top: 90px;
+}
+.one,
+.two,
+.three {
+  box-shadow: -5px 5px 5px red;
+
+}
+.one, .three {
+    margin-left: 200px;
+}
+.two {
+    margin-left: 100px;
+}
+.pratique {
+  margin-left: 80px;
+}
+.facile {
+  margin-top: 90px;
+  margin-left: 190px;
+}
+.zone {
+  margin-top: 90px;
+  margin-left: 80px;
+}
+.pratique,
+.zone,
+.facile {
+  box-shadow: 5px 5px 5px red;
+  background-color: #FFE6B2;
+}
+
+footer {
+  border-top: solid black 40px;
+}
+.coord {
+  padding-top: 25px;
+}
+.descript, .formulaire {
+    margin: 50px;
+    border-radius: 40;
+    box-shadow: 10px 10px 10px red;
+    font-family: prata;
+    font-size: 24px;
+}
+form {
+    margin: 50px;
+    border-radius:15;
+border-style: double;
+}
